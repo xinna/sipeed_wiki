@@ -1,0 +1,764 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>PlatformIO IDE · Sipeed Wiki</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="sipeed">
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search-title/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../../lichee/nano.html" />
+    
+    
+    <link rel="prev" href="maixpy_ide.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+<div class="my-head">
+    <nav role="navigation" class="autoshow">
+        <ul class="header-login">
+            <li style="text-align: center;">
+                <a id="my-login" href="/en/" class="btn" target="_self">
+                    <!-- <img src="/assets/icon_sipeed2.png" height="30" /> -->
+                    <img src="/assets/logo.svg" height="30" />
+                </a>
+            </li>
+            <li style="text-align: center;margin-top: 10px;font-size: 15px;color: white;">
+                Programming Guide
+            </li>
+        </ul>
+    </nav>
+</div>
+
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Sipeed Products
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    AI Maix Series
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../module/m1.html">
+            
+                <a href="../module/m1.html">
+            
+                    
+                    Maix M1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../board/">
+            
+                <a href="../board/">
+            
+                    
+                    Dev Boards
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../board/bit.html">
+            
+                <a href="../board/bit.html">
+            
+                    
+                    Maix Bit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../board/dock.html">
+            
+                <a href="../board/dock.html">
+            
+                    
+                    Maix Dock
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../board/go.html">
+            
+                <a href="../board/go.html">
+            
+                    
+                    Maix Go
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../board/maixduino.html">
+            
+                <a href="../board/maixduino.html">
+            
+                    
+                    Maixduino
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../sdk/">
+            
+                <a href="../sdk/">
+            
+                    
+                    SDK
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../sdk/maixpy.html">
+            
+                <a href="../sdk/maixpy.html">
+            
+                    
+                    MaixPy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../sdk/maixduino.html">
+            
+                <a href="../sdk/maixduino.html">
+            
+                    
+                    Maixduino
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../sdk/kendryte_sdk.html">
+            
+                <a href="../sdk/kendryte_sdk.html">
+            
+                    
+                    Kendryte SDK
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../sdk/rtt.html">
+            
+                <a href="../sdk/rtt.html">
+            
+                    
+                    RT-Thread
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="kflash_gui.html">
+            
+                <a href="kflash_gui.html">
+            
+                    
+                    Tools
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="kflash_gui.html">
+            
+                <a href="kflash_gui.html">
+            
+                    
+                    Firmware/Model Download tool
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="maixpy_ide.html">
+            
+                <a href="maixpy_ide.html">
+            
+                    
+                    Maixpy IDE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6.3" data-path="platformio.html">
+            
+                <a href="platformio.html">
+            
+                    
+                    PlatformIO IDE
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../lichee/nano.html">
+            
+                <a href="../../lichee/nano.html">
+            
+                    
+                    Lichee Pi Series
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../lichee/nano.html">
+            
+                <a href="../../lichee/nano.html">
+            
+                    
+                    Lichee Pi Nano
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../lichee/zero.html">
+            
+                <a href="../../lichee/zero.html">
+            
+                    
+                    Lichee Pi Zero
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../tang/premier.html">
+            
+                <a href="../../tang/premier.html">
+            
+                    
+                    Lichee Tang Series
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../../tang/premier.html">
+            
+                <a href="../../tang/premier.html">
+            
+                    
+                    Lichee Tang Premier
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../../tang/hex.html">
+            
+                <a href="../../tang/hex.html">
+            
+                    
+                    Lichee Tang Hex
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../../modules/lcd.html">
+            
+                <a href="../../modules/lcd.html">
+            
+                    
+                    Peripheral modules
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../../modules/lcd.html">
+            
+                <a href="../../modules/lcd.html">
+            
+                    
+                    LCD
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../../modules/mic.html">
+            
+                <a href="../../modules/mic.html">
+            
+                    
+                    Mic
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../../modules/camera.html">
+            
+                <a href="../../modules/camera.html">
+            
+                    
+                    Camera
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../../modules/usb_hub.html">
+            
+                <a href="../../modules/usb_hub.html">
+            
+                    
+                    USB Hub/ USB to RJ45
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="../../modules/sd_nand.html">
+            
+                <a href="../../modules/sd_nand.html">
+            
+                    
+                    SD NAND
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.6" data-path="../../modules/wifi.html">
+            
+                <a href="../../modules/wifi.html">
+            
+                    
+                    WiFi
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-my-header" role="navigation">
+    <div role="navigation" aria-label="breadcrumbs navigation">
+        <div class="my-head-left">
+            <div class="btn-togger" data-flag='open' onclick="btnTogger()">
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+        </div>
+        <div class="my-head-right">
+            <ul>
+                <li><i><img src="/assets/img/edit_github.svg" alt=""></i><span onclick="location.href='https://github.com/sipeed/sipeed_wiki'">Edit on GitHub</span></li>
+                <li>
+                    <i><img src="/assets/img/i18n.svg" alt=""></i>
+                    <span onclick="toggleLanguage()">English</span>
+                    <span onclick="toggleLanguage()">中文</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+function btnTogger(){
+    let body_summary = document.getElementsByClassName('book-summary')[0]
+    var flag = document.getElementsByClassName('book-summary')[0].getAttribute('data-flag')
+    if(flag == 'open' || flag == null){
+        body_summary.style.width="300px"
+        body_summary.style.left="-300px"
+        body_summary.style.position="absolute"
+        document.getElementsByClassName('book-summary')[0].setAttribute('data-flag','close');
+        document.querySelector('.book-body').style.left = '0px'
+        localStorage.setItem(':sidebar','false')
+    } else {
+        localStorage.setItem(':sidebar','true')
+        body_summary.style.width="300px"
+        body_summary.style.left="0"
+        body_summary.style.position="absolute"
+        document.getElementsByClassName('book-summary')[0].setAttribute('data-flag','open');
+        if(window.innerWidth <= 360) {
+            document.querySelector('.book-body').style.left = '200px'
+        } else {
+            document.querySelector('.book-body').style.left = '300px'
+        }
+
+    }
+    
+}
+function toggleLanguage() {
+    var path = location.href;
+    // console.log(path);
+    if (path.indexOf('/zh') !== -1) {
+        path = path.replace(/\/zh[\/$\s]/i, '/en/');
+    } else if (path.indexOf('/en') !== -1) {
+        path = path.replace(/\/en[\/$\s]/i, '/zh/');
+    }
+    // console.log('after: ' + path);    
+    location.assign(path);
+}
+</script>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#platformio-ide"><b> </b>PlatformIO IDE</a></li></ul></div><a href="#platformio-ide" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="platformio-ide"><a name="platformio-ide" class="anchor-navigation-ex-anchor" href="#platformio-ide"><i class="fa fa-link" aria-hidden="true"></i></a> PlatformIO IDE</h1>
+<p>IDE for C/C++&#x3001; Arduino(Maixduino) development(coding and debug)</p>
+<p>More see <a href="http://blog.sipeed.com/p/622.html" target="_blank">blog</a> (select translate on the top of right corner)</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="maixpy_ide.html" class="navigation navigation-prev " aria-label="Previous page: Maixpy IDE">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../../lichee/nano.html" class="navigation navigation-next " aria-label="Next page: Lichee Pi Series">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"PlatformIO IDE","level":"1.6.3","depth":2,"next":{"title":"Lichee Pi Series","level":"1.7","depth":1,"path":"lichee/nano.md","ref":"lichee/nano.md","articles":[{"title":"Lichee Pi Nano","level":"1.7.1","depth":2,"path":"lichee/nano.md","ref":"lichee/nano.md","articles":[]},{"title":"Lichee Pi Zero","level":"1.7.2","depth":2,"path":"lichee/zero.md","ref":"lichee/zero.md","articles":[]}]},"previous":{"title":"Maixpy IDE","level":"1.6.2","depth":2,"path":"maix/tools/maixpy_ide.md","ref":"maix/tools/maixpy_ide.md","articles":[]},"dir":"ltr"},"config":{"plugins":["search-title","anchor-navigation-ex","copy-code-button","alerts","include-csv","expandable-chapters-small@git+https://github.com/sipeed/gitbook-plugin-expandable-chapters-small.git"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"include-csv":{},"search":{"maxIndexSize":1000000000},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"search-title":{},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":false,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":false,"pageTop":{"level1Icon":"fa fa-angle-double-right","level2Icon":"fa fa-angle-double-right","level3Icon":"fa fa-angle-double-right","showLevelIcon":true},"printLog":false,"showGoTop":true,"showLevel":true},"alerts":{},"expandable-chapters-small":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"sipeed","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"Introduction.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"items":[{"name":"Taobao","link":"https://shop365481095.taobao.com/"}]},"title":"Sipeed Wiki","language":"en","gitbook":"*","description":"Sipeed Wiki pages"},"file":{"path":"maix/tools/platformio.md","mtime":"2020-02-05T07:29:40.016Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-05T07:30:30.265Z"},"basePath":"../..","book":{"language":"en"}});
+        });
+    </script>
+</div>
+
+        
+
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search-title/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search-title/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+<script type="text/javascript">
+
+</script>
+
+    </body>
+</html>
+
